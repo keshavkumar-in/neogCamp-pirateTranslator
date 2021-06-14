@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
+:root {
+  --primary-color: orangered;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Pangolin", cursive;
+}
+html {
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    to right bottom,
+    #111211,
+    #2b3429,
+    #495940,
+    #6d8056,
+    #96a86c
+  );
+}
+header,
+footer {
+  display: block;
+  padding: 2rem 0;
+  background-image: linear-gradient(
+    to right top,
+    #111211,
+    #2b3429,
+    #495940,
+    #6d8056,
+    #96a86c
+  );
+  text-align: center;
+  color: white;
+}
+footer p {
+  max-width: 600px;
+  margin: auto;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  width: 100%;
+  margin: 1rem 0rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: larger;
+  color: white;
+  padding: 1rem 0;
+}
+.output {
+  height: 20vh;
+  box-sizing: border-box;
+  background-color: thistle;
+  border-radius: 1rem;
+  position: relative;
+  padding: 1rem;
+  text-align: left;
+  font-size: larger;
+}
+
+.output::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 38%;
+  border-bottom: 20px solid thistle;
+  border-top-color: inherit;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}
+
+textarea {
+  max-width: calc(100% - 1rem);
+  width: calc(100% - 2rem);
+  height: 20vh;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: large;
+}
+
+img {
+  width: 200px;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  box-shadow: 10px 10px 5px var(--primary-color);
+  background-color: var(--primary-color);
+  border: 2px solid wheat;
+  font-size: larger;
+  margin: 1rem 0rem;
+  color: white;
+}
