@@ -67,6 +67,7 @@ h3 {
   padding: 1rem;
   text-align: left;
   font-size: larger;
+  box-shadow: 10px 10px 15px white;
 }
 
 .output::before {
@@ -87,6 +88,7 @@ textarea {
   border-radius: 1rem;
   padding: 1rem;
   font-size: large;
+  box-shadow: 10px 10px 15px white;
 }
 
 img {
