@@ -1,6 +1,6 @@
 # neogCamp Pirate Speak Translator
 
-This repository contains neogCamp Pirate Speak app, which uses FunTranslation's Minion API to translate given input to fun minion language. This is lesson four 2nd assignment.
+This repository contains neogCamp Pirate Speak app, which uses FunTranslation's Pirate Speak API to translate given input to fun pirate language. This is lesson four 2nd assignment.
 
 > [Check Demo Here](https://neogcamp-piratespeak-app.netlify.app)
 
